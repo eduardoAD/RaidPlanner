@@ -16,6 +16,8 @@
 		E4BEBDA019F802DD008F2D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BEBD9F19F802DD008F2D37 /* Images.xcassets */; };
 		E4BEBDA319F802DD008F2D37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4BEBDA119F802DD008F2D37 /* LaunchScreen.xib */; };
 		E4BEBDAF19F802DD008F2D37 /* RaidPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BEBDAE19F802DD008F2D37 /* RaidPlannerTests.m */; };
+		E4BEBDBA19F804B9008F2D37 /* Raid.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BEBDB919F804B9008F2D37 /* Raid.m */; };
+		E4BEBDBD19F804B9008F2D37 /* Adventurer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BEBDBC19F804B9008F2D37 /* Adventurer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		E4BEBDA819F802DD008F2D37 /* RaidPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaidPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BEBDAD19F802DD008F2D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4BEBDAE19F802DD008F2D37 /* RaidPlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaidPlannerTests.m; sourceTree = "<group>"; };
+		E4BEBDB819F804B9008F2D37 /* Raid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raid.h; sourceTree = "<group>"; };
+		E4BEBDB919F804B9008F2D37 /* Raid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Raid.m; sourceTree = "<group>"; };
+		E4BEBDBB19F804B9008F2D37 /* Adventurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
+		E4BEBDBC19F804B9008F2D37 /* Adventurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adventurer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				E4BEBD9719F802DD008F2D37 /* MasterViewController.m */,
 				E4BEBD9919F802DD008F2D37 /* DetailViewController.h */,
 				E4BEBD9A19F802DD008F2D37 /* DetailViewController.m */,
+				E4BEBDBB19F804B9008F2D37 /* Adventurer.h */,
+				E4BEBDBC19F804B9008F2D37 /* Adventurer.m */,
+				E4BEBDB819F804B9008F2D37 /* Raid.h */,
+				E4BEBDB919F804B9008F2D37 /* Raid.m */,
 				E4BEBD9C19F802DD008F2D37 /* Main.storyboard */,
 				E4BEBD9F19F802DD008F2D37 /* Images.xcassets */,
 				E4BEBDA119F802DD008F2D37 /* LaunchScreen.xib */,
@@ -228,10 +238,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4BEBD9B19F802DD008F2D37 /* DetailViewController.m in Sources */,
+				E4BEBDBD19F804B9008F2D37 /* Adventurer.m in Sources */,
 				E4BEBD9819F802DD008F2D37 /* MasterViewController.m in Sources */,
 				E4BEBD9219F802DD008F2D37 /* AppDelegate.m in Sources */,
 				E4BEBD9519F802DD008F2D37 /* RaidPlanner.xcdatamodeld in Sources */,
 				E4BEBD8F19F802DD008F2D37 /* main.m in Sources */,
+				E4BEBDBA19F804B9008F2D37 /* Raid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
